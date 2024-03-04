@@ -1,0 +1,85 @@
+
+.first {
+    margin-top: 6rem;
+}
+
+.first .title .Aspire {
+    font-size: 3rem;
+    font-weight: 3rem;
+}
+
+.first .title .maintext {
+    font-size: 1.2rem;
+}
+.first .time {
+    color: orange;
+    margin: .5rem;
+}
+.first .film {
+    color: orange;
+    margin: .5rem;
+}
+.first .people {
+    color: orange;
+    margin: .5rem;
+}
+.form {
+    padding: 2rem;
+    box-shadow: inset 1px 1px 1px 1px grey;
+    border-radius: 10px;
+
+}
+.form h1 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+.form .container .login {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5rem;
+    margin-bottom: 10px;
+
+}
+.container .login  .button1{
+    background-color:blueviolet;
+    color: white;
+}
+.form .socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: .5rem;
+}
+.form .socialmedia button {
+    padding: .6rem 2rem;
+    border:none;
+    border-radius: 5px;
+}
+.box .login input {
+    padding: .3rem;
+    border-radius: 5px;
+    border: grey 1px solid;
+    margin-bottom: 1.5rem;
+}
+.form .socialmedia button .icon1 {
+    color:red;
+    margin-right: .3rem;
+    font-size: 14px;
+}
+.form .socialmedia button .icon2 {
+    color:skyblue;
+    margin-right: .3rem;
+    font-size: 14px;
+}
+.form .socialmedia button .icon3 {
+    color:blue;
+    margin-right: .3rem;
+    font-size: 14px;
+}
+
+.form p {
+    text-align: center;
+    margin-top: 1rem;
+}
