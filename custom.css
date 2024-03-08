@@ -444,6 +444,7 @@ margin-bottom: 1rem;
 /* Adv starts*/
 .adv {
     background-image: url(./Images/course-graphics.171832eb5421ed89e4654944532c6886.svg);
+    background-size: 100% auto;
     text-align: center;
     padding: 5rem;
 }
@@ -455,10 +456,27 @@ margin-bottom: 1rem;
     font-size: 1.3rem;
     color: grey;
     font-weight: 500;
+    margin-bottom: 3rem;
 }
-.adv .btn a .free button{
+.adv .advbutton .business{
+    background-color: #0EA5E9;
+    border-radius: 5px;
+    padding: .4rem 1rem;
+    color: white;
+    border: none;
+}
+.adv .advbutton .business:hover{
+    background-color: #0e89c2;
+}
+.adv .advbutton .free{
     background-color: #754ffe;
-    border-radius: 10px;
+    border-radius: 5px;
+    padding: .4rem 1rem;
+    color: white;
+    border: none;
+}
+.adv .advbutton .free:hover{
+    background-color: #5f38ec;
 }
 /*Adv ends*/
 /*footer section start*/
